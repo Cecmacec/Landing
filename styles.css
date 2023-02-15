@@ -1,0 +1,257 @@
+body{
+    background: linear-gradient(to left,rgba(7, 183, 192, 0.932),rgb(35, 230, 204));
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+}
+
+main{
+    margin-top:15px;
+    color:#000000;
+    border: 3px solid rgba(46, 83, 46, 0.5);
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 5px;
+    background-color: rgba(153, 153, 153, 0.432);
+}
+
+#header-img{
+width: 50px;
+height: 50px;
+border-radius: 40%;
+
+
+}
+
+header{
+    position: fixed;
+    margin-top: -18px;
+    width: 100%;
+}
+#title{
+
+    font-size: 20px;
+    font-weight: bold;
+    width: 460px;
+    text-align: center;
+    margin: auto;
+    color: #FFF;
+
+}
+
+#nav-bar{
+   
+    background: linear-gradient(to left,rgba(5, 95, 100, 0.932),rgb(47, 182, 164));
+    display: flex;
+  flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content:space-around;
+    border-radius: 5px;
+  
+}
+
+.container-link{
+    display: flex;
+    flex-direction: row;
+ 
+    font-size:12px;
+    justify-content:space-around;
+}
+.container-link > li {
+    margin: 0px;
+    padding: 5px;
+    list-style:none;
+  
+    font-size: 15px;
+  
+}
+
+a{
+    text-decoration: none;
+    color: #FFF;
+    
+}
+
+
+
+form{
+display: flex;
+flex-direction:column;
+}
+
+#submit{
+    margin:auto;
+    border-radius:5px;
+    width: 80px;
+    
+}
+    
+#email{
+margin:auto;
+border-radius:3px;
+width: 400px;
+height: 25px;
+}
+
+#form > input::placeholder {
+
+ text-align:center;
+ color: rgba(0, 0 ,150 , 0.5 );
+ font-size: 1.5em;
+ font-weight: bold;
+}
+
+h2,h3,h4 {
+    margin-left: 15px;
+}
+
+h3,h4 {
+    margin-left: 15px;
+    font-weight: 200;
+}
+
+h2{
+    color: #eee;
+  
+}
+
+#form-h3{
+    text-align: center;
+    font-weight: 900;
+    font-size: 25px;
+    color: #FFF;
+}
+
+
+   
+
+            .container-img > img{
+                width: 250px;
+                height: 250px;
+        
+                border-radius:5px;
+                border-style: double;
+                background-color: red;
+                
+            }
+
+
+ .container-img{
+              display: flex; 
+              flex-direction: row;
+              justify-content: space-evenly;
+                
+            }
+
+            
+
+
+
+  
+
+#container-img > img {
+    width: 250px;
+                height: 250px;
+        
+                border-radius:5px;
+                border-style: double;
+                background-color: red;
+}
+
+#container-img{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-evenly;
+      
+  }
+
+        
+        #video{
+            width: 80%;
+            height: 350px;
+            margin: 0px 10% 10px 10%;
+            border-radius:5px;
+            background-color: red;
+            
+            }
+
+            section::before{
+                content:"" ;
+                background-color: #922;
+                height: 2px;
+                width: 80px;
+                position: absolute;
+                margin-top: 30px;
+                margin-left: 1px;
+            }
+
+          footer{
+            text-align: center;
+            padding-top: 25px;
+            padding-bottom: 25px;
+            font-weight: 800;
+            font-size: 18px;
+            background:#1b9c9c;
+            width: 100%;
+            height: 100%;
+            color: #fff;
+          }
+
+          section{
+            border-bottom: 1px solid #fff;
+            width: 98%;
+            margin:auto;
+            padding-bottom: 15px;
+          }
+
+          
+
+          
+@media(min-width:800px){
+
+    .container-img > img{
+        width: 150px;
+        height: 150px;border-radius:5px;
+        border-style: double;
+        background-color: red;
+        
+    }
+
+    #container-img > img {
+        width: 150px;
+        height: 150px;
+        border-radius:5px;
+                    border-style: double;
+                    background-color: red;
+    }
+
+    h2{
+        color: #fff;
+      font-size: 21px;
+    }
+}
+
+@media(max-width:400px){
+
+    .container-img > img{
+        width: 50px;
+        height: 50px;border-radius:5px;
+        border-style: double;
+        background-color: red;
+        
+    }
+
+    #container-img > img {
+        width: 50px;
+        height: 50px;
+        border-radius:5px;
+                    border-style: double;
+                    background-color: red;
+    }
+
+    h2{
+        color: #fff;
+      font-size: 21px;
+    }
+}
+
